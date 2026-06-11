@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    image: my-spring-app
+    container_name: spring-app
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://i12e207.p.ssafy.io:3306/wakwak?serverTimezone=UTC&characterEncoding=UTF-8
+      - SPRING_DATASOURCE_USERNAME=ssafy
+      - SPRING_DATASOURCE_PASSWORD=ssafy
+    ports:
+      - "8081:8080"
+    depends_on:
+      database:
+        condition: service_healthy
+    volumes:
+      - ./back/.env:/app/.env    
+
+  database:
+    image: mysql:8
+    container_name: mysql-db
+    restart: always
+    environment:
+      - MYSQL_USER=ssafy
+      - MYSQL_PASSWORD=ssafy
+      - MYSQL_DATABASE=wakwak
+      - MYSQL_ROOT_PASSWORD=ssafy
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      retries: 5
+      start_period: 20s  
+
+volumes:
+  mysql_data:
