@@ -18,7 +18,7 @@
 
 지금 왁왁과 함께, 소중한 순간을 기록하고 새로운 추억을 만들어 보세요! 💛✨
 
-## 🎬 시연 영상
+## 🎬 홍보 영상
 
 <p align="center">
   <video src="https://github.com/user-attachments/assets/8a233a69-eab7-4247-be49-3d64863b88be" controls playsinline width="900"></video>
