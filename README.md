@@ -24,8 +24,6 @@
   <video src="https://github.com/user-attachments/assets/8a233a69-eab7-4247-be49-3d64863b88be" controls playsinline width="900"></video>
 </p>
 
-<sub><a href="https://github.com/Ponezzo/WakWak/releases/download/demo/demo.mp4">MP4 다운로드</a></sub>
-
 ## 팀원 구성
 
 
