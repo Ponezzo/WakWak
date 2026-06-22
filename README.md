@@ -18,6 +18,14 @@
 
 지금 왁왁과 함께, 소중한 순간을 기록하고 새로운 추억을 만들어 보세요! 💛✨
 
+## 🎬 시연 영상
+
+<p align="center">
+  <video src="https://github.com/Ponezzo/WakWak/releases/download/demo/demo.mp4" controls playsinline width="900">
+    브라우저가 video 태그를 지원하지 않습니다. <a href="https://github.com/Ponezzo/WakWak/releases/tag/demo">Release에서 시청</a>
+  </video>
+</p>
+
 ## 팀원 구성
 
 
