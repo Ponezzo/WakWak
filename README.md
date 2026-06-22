@@ -20,11 +20,9 @@
 
 ## 🎬 시연 영상
 
-<p align="center">
-  <video src="https://github.com/Ponezzo/WakWak/releases/download/demo/demo.mp4" controls playsinline width="900">
-    브라우저가 video 태그를 지원하지 않습니다. <a href="https://github.com/Ponezzo/WakWak/releases/tag/demo">Release에서 시청</a>
-  </video>
-</p>
+https://github.com/Ponezzo/WakWak/releases/download/demo/demo.mp4
+
+<sub>위 플레이어가 보이지 않으면 <a href="https://github.com/Ponezzo/WakWak/releases/tag/demo">Release 페이지</a>에서 시청하세요.</sub>
 
 ## 팀원 구성
 
