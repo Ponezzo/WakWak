@@ -21,7 +21,7 @@
 ## 🎬 홍보 영상
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/8a233a69-eab7-4247-be49-3d64863b88be" controls playsinline width="900"></video>
+  <video src="https://github.com/user-attachments/assets/542c044d-9c6e-4be0-af67-fd1ae5fe029a" controls playsinline width="900"></video>
 </p>
 
 ## 팀원 구성
